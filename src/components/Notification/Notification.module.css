@@ -1,0 +1,24 @@
+.notification {
+  padding: 50px 0;
+  color: rgb(200, 12, 12);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.notification:hover {
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5); /* Более выраженная тень при наведении */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.notification {
+  animation: fadeIn 0.5s ease-out;
+}

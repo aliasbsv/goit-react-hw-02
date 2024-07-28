@@ -1,0 +1,15 @@
+.descBlock {
+  margin-bottom: 50px;
+}
+.descTitle {
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  color: rgb(1, 1, 44);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.descText {
+  color: rgb(62, 62, 73);
+}

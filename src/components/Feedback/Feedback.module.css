@@ -1,0 +1,10 @@
+.feedbackList {
+  padding: 25px 0;
+}
+.feedbackItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.feedbackItem {
+  font-size: 24px;
+}
